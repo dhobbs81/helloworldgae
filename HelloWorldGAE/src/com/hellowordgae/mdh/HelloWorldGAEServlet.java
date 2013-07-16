@@ -10,5 +10,6 @@ public class HelloWorldGAEServlet extends HttpServlet {
 		resp.setContentType("text/plain");
 		resp.getWriter().println("Hello, Dynamic Confusion! And here's a demotivational quote:\nHe who chases rainbows may eventually catch tornadoes!!!");
 		resp.getWriter().println("Hello, Dynamic Confusion! And here's a demotivational quote:\nLife is like a box of chocolates. It doesn't last as long for fat people.");
+		resp.getWriter().println("\\m/ Long Live Metal! \\m/!");
 	}
 }
